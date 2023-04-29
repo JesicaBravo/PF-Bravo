@@ -28,7 +28,7 @@ body {
     width: 100%;
     background: #dab9f1;
     overflow: hidden;
-    
+    margin: auto;
   }
   
   header img{
@@ -106,7 +106,7 @@ body {
 .imgP{
     width: 1350px;
     height:700px;
-
+    margin: auto;
 }
   
 /* /footer*/
