@@ -1,49 +1,45 @@
+/*colores*/
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Questrial&family=Snippet&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-.nombreL {
-  text-align: center;
-  font-family: 'Snippet', sans-serif; }
-
-header {
-  width: 100%;
-  background: #dab9f1;
-  overflow: hidden;
-  margin: auto; }
-
-header img {
-  display: block;
-  margin: auto; }
-
-nav {
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-  margin: auto; }
-
-header nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px; }
-
-nav ul li a {
-  text-decoration: none;
-  color: #000000;
-  padding: 15px 20px;
-  display: block;
-  font-size: 1.1rem;
-  transition: all .4s ease-in-out;
-  font-family: 'Snippet', sans-serif; }
+body {
+  background: #dab9f1; }
+  body header {
+    width: 100%;
+    background: #dab9f1;
+    overflow: hidden;
+    margin: auto;
+    font-family: sans-serif; }
+    body header .nombreL {
+      text-align: center;
+      font-family: 'Snippet', sans-serif; }
+    body header img {
+      display: block;
+      margin: auto; }
+    body header nav {
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+      margin: auto; }
+    body header ul li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px; }
+    body header ul a {
+      text-decoration: none;
+      color: #000000;
+      padding: 15px 20px;
+      display: block;
+      font-size: 1.1rem;
+      transition: all .4s ease-in-out;
+      font-family: 'Snippet', sans-serif; }
 
 nav ul li a:hover {
   background: #dab9f1;
   color: #000; }
-
-body {
-  background-color: #dab9f1; }
 
 .textoo {
   text-align: center;
@@ -80,7 +76,7 @@ main div img {
   height: 100%;
   object-fit: cover; }
 
-.texto2 {
+main .texto2 {
   text-align: center; }
 
 /* /cafeteria*/
