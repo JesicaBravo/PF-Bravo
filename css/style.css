@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* ---comienzo de header ----*/
 body {
   background: #dab9f1; }
   body header {
@@ -49,8 +50,8 @@ nav ul li a:hover {
 .p1 {
   line-height: 180%; }
 
-/* /header*/
-/* footer */
+/* ---final de header ----*/
+/* ---comienzo de footer ----*/
 .final {
   background-color: #e3caf5;
   padding: 10px;
@@ -69,8 +70,8 @@ nav ul li a:hover {
 .imgP {
   margin: auto; }
 
-/* /footer*/
-/*cafeteria*/
+/* ---final de footer ----*/
+/* ---comienzo de cafeteria ----*/
 main div img {
   width: 100%;
   height: 100%;
@@ -79,8 +80,8 @@ main div img {
 main .texto2 {
   text-align: center; }
 
-/* /cafeteria*/
-/* contacto*/
+/* ---final de Cafeteria ----*/
+/* ---comienzo de Contacto ----*/
 .form {
   width: 80vh;
   margin: 0 auto;
@@ -142,8 +143,8 @@ main .texto2 {
   color: black;
   margin: auto; }
 
-/* /contacto*/
-/*imagenes*/
+/* ---final de Contacto ----*/
+/* ---comienzo de imagenes en adopcion y animales ----*/
 .linea {
   background: #dab9f1;
   height: 5px;
@@ -220,7 +221,8 @@ main .texto2 {
   line-height: none;
   text-align: center; }
 
-/*media*/
+/* ---comienzo de imagenes en adopcion y animales ----*/
+/* ---comienzo de media ----*/
 @media only screen and (max-width: 768px) {
   header nav ul li {
     display: block;
@@ -234,3 +236,5 @@ main .texto2 {
   .close {
     top: 20px;
     right: 20px; } }
+
+/* ---final de media ----*/
