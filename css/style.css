@@ -44,11 +44,12 @@ nav ul li a:hover {
 
 .textoo {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Domine', serif; }
 
 .p1 {
-  line-height: 180%; }
+  line-height: 180%;
+  padding: 15px; }
 
 /* ---final de header ----*/
 /* ---comienzo de footer ----*/
@@ -203,8 +204,8 @@ main .texto2 {
   position: absolute;
   top: 40px;
   right: 40px;
-  background: #891010;
-  color: #e3caf5;
+  background: #d5a0e8;
+  color: #000000;
   text-decoration: none;
   width: 40px;
   height: 40px;
@@ -214,10 +215,9 @@ main .texto2 {
 
 .next {
   display: block;
-  background: #891010;
   color: #e3caf5;
   height: 30px;
-  width: 30px;
+  width: 70px;
   line-height: none;
   text-align: center; }
 
