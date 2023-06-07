@@ -49,7 +49,13 @@ nav ul li a:hover {
 
 .p1 {
   line-height: 180%;
-  padding: 15px; }
+  padding: 15px;
+  background: #ae79cb;
+
+
+
+}
+  
 
 /* ---final de header ----*/
 /* ---comienzo de footer ----*/
@@ -237,4 +243,8 @@ main .texto2 {
     top: 20px;
     right: 20px; } }
 
+    @media screen and (max-width: 400px){
+      .form{
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }}
 /* ---final de media ----*/
